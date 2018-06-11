@@ -1,0 +1,50 @@
+{
+    "model" : {
+        "backend":              "Full Yolo",
+        "input_size":           416,
+<<<<<<< HEAD
+        "anchors":              [3.41,4.05, 3.47,2.64, 4.14,4.81],
+        "max_box_per_image":    5,
+
+=======
+        "anchors":              [0.57273, 0.677385, 1.87446, 2.06253, 3.33843, 5.47434, 7.88282, 3.52778, 9.77052, 9.16828],
+        "max_box_per_image":    5,        
+>>>>>>> fffd63baa669ea41f42d92ba6657d873be117e45
+        "labels":               ["NEUTROPHIL"]
+    },
+
+    "train": {
+        "train_image_folder":   "train_image_multi/",
+        "train_annot_folder":   "train_annot_multi/",     
+          
+<<<<<<< HEAD
+        "train_times":          8,
+        "pretrained_weights":   "",
+        "batch_size":           1,
+        "learning_rate":        1e-4,
+        "nb_epochs":            15,
+=======
+        "train_times":          1,
+        "pretrained_weights":   "",
+        "batch_size":           1,
+        "learning_rate":        1e-4,
+        "nb_epochs":            20,
+>>>>>>> fffd63baa669ea41f42d92ba6657d873be117e45
+        "warmup_epochs":        1,
+
+        "object_scale":         5.0 ,
+        "no_object_scale":      1.0,
+        "coord_scale":          1.0,
+        "class_scale":          1.0,
+
+        "saved_weights_name":   "full_yolo_bloodcell.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "train_image_multi/",
+        "valid_annot_folder":   "train_annot_multi/",
+
+        "valid_times":          1
+    }
+}

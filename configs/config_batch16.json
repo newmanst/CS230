@@ -1,0 +1,37 @@
+{
+    "model" : {
+        "backend":              "Full Yolo",
+        "input_size":           416,
+        "anchors":              [2.18,3.00, 3.02,4.58, 3.11,3.69, 6.49,6.98, 12.48,12.62],
+        "max_box_per_image":    5,
+
+        "labels":               ["NEUTROPHIL"]
+    },
+
+    "train": {
+        "train_image_folder":   "nomulti_Images/",
+        "train_annot_folder":   "wbcAnnotations/",     
+          
+        "train_times":          8,
+        "pretrained_weights":   "",
+        "batch_size":           16,
+        "learning_rate":        1e-4,
+        "nb_epochs":            15,
+        "warmup_epochs":        1,
+
+        "object_scale":         5.0 ,
+        "no_object_scale":      1.0,
+        "coord_scale":          1.0,
+        "class_scale":          1.0,
+
+        "saved_weights_name":   "full_yolo_bloodcell_batch16.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "nomulti_Images/",
+        "valid_annot_folder":   "wbcAnnotations/",
+
+        "valid_times":          1
+    }
+}

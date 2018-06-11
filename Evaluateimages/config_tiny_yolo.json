@@ -1,0 +1,36 @@
+{
+    "model" : {
+        "backend":              "Tiny Yolo",
+        "input_size":           416,
+        "anchors":              [1.36,1.54, 1.51,2.28, 2.12,2.22, 6.20,6.64],
+        "max_box_per_image":    5,        
+        "labels":               ["MONOCYTE", "LYMPHOCYTE", "NEUTROPHIL", "EOSINOPHIL"]
+    },
+
+    "train": {
+        "train_image_folder":   "dataset_complete/TRAIN_IMAGES/",
+        "train_annot_folder":   "dataset_complete/TRAIN_LABELS/",     
+          
+        "train_times":          1,
+        "pretrained_weights":   "",
+        "batch_size":           16,
+        "learning_rate":        2.0e-04,
+        "nb_epochs":            10,
+        "warmup_epochs":        1,
+
+        "object_scale":         15.0 ,
+        "no_object_scale":      1.0,
+        "coord_scale":          1.0,
+        "class_scale":          1.0,
+
+        "saved_weights_name":   "yolo_tiny.h5",
+        "debug":                false
+    },
+
+    "valid": {
+        "valid_image_folder":   "dataset_complete/DEV_IMAGES/",
+        "valid_annot_folder":   "dataset_complete/DEV_LABELS/",
+
+        "valid_times":          1
+    }
+}

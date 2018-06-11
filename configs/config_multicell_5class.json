@@ -1,0 +1,36 @@
+{
+    "model" : {
+        "backend":              "Full Yolo",
+        "input_size":           416,
+        "anchors":              [2.26,3.00, 2.99,4.30, 3.99,3.61, 4.94,6.51, 10.30,10.36],
+        "max_box_per_image":    5,
+        "labels":               ["NEUTROPHIL", "EOSINOPHIL", "LYMPHOCYTE", "MONOCYTE"]
+    },
+
+    "train": {
+        "train_image_folder":   "small_set_image/",
+        "train_annot_folder":   "small_set_annot/",     
+          
+        "train_times":          8,
+        "pretrained_weights":   "",
+        "batch_size":           16,
+        "learning_rate":        1e-4,
+        "nb_epochs":            15,
+        "warmup_epochs":        1,
+
+        "object_scale":         5.0 ,
+        "no_object_scale":      1.0,
+        "coord_scale":          1.0,
+        "class_scale":          1.0,
+
+        "saved_weights_name":   "full_5class_yolo_bloodcell_TBtest.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+
+        "valid_times":          1
+    }
+}

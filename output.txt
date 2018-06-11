@@ -1,0 +1,133 @@
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.5302
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.6215
+MONOCYTE 0.5500
+mAP valid: 0.4254
+mAP train: 0.5953
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.8226
+EOSINOPHIL 0.6260
+LYMPHOCYTE 0.8821
+MONOCYTE 0.5321
+mAP valid: 0.7157
+mAP train: 0.9582
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.5503
+mAP valid: 0.1376
+mAP train: 0.1968
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.3140
+mAP valid: 0.0785
+mAP train: 0.1869
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.8319
+EOSINOPHIL 0.4080
+LYMPHOCYTE 0.9452
+MONOCYTE 0.6468
+mAP valid: 0.7080
+mAP train: 0.8654
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.1340
+EOSINOPHIL 0.2282
+LYMPHOCYTE 0.8200
+MONOCYTE 0.4869
+mAP valid: 0.4173
+mAP train: 0.7773
+Following was saved in: sweep_small2.h5
+NEUTROPHIL 0.6303
+EOSINOPHIL 0.6329
+LYMPHOCYTE 0.6400
+MONOCYTE 0.5726
+mAP valid: 0.6190
+mAP train: 0.6903
+Following was saved in: sweep_small2.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.0000
+mAP valid: 0.0000
+mAP train: 0.0000
+Following was saved in: sweep_small2.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.5436
+mAP valid: 0.1359
+mAP train: 0.1842
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.0000
+mAP valid: 0.0000
+mAP train: 0.0000
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.6541
+EOSINOPHIL 0.3747
+LYMPHOCYTE 0.8172
+MONOCYTE 0.2629
+mAP valid: 0.5272
+mAP train: 0.6432
+Following was saved in: sweep_small2.h5
+NEUTROPHIL 0.7198
+EOSINOPHIL 0.2899
+LYMPHOCYTE 0.3495
+MONOCYTE 0.2242
+mAP valid: 0.3958
+mAP train: 0.5371
+Following was saved in: sweep_small3.h5
+NEUTROPHIL 0.8185
+EOSINOPHIL 0.8313
+LYMPHOCYTE 0.8573
+MONOCYTE 0.5782
+mAP valid: 0.7713
+mAP train: 0.9048
+Following was saved in: sweep_small4.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.2621
+LYMPHOCYTE 0.6118
+MONOCYTE 0.6209
+mAP valid: 0.3737
+mAP train: 0.6159
+Following was saved in: sweep_small5.h5
+NEUTROPHIL 0.0263
+EOSINOPHIL 0.1267
+LYMPHOCYTE 0.1179
+MONOCYTE 0.3359
+mAP valid: 0.1517
+mAP train: 0.1657
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.4848
+mAP valid: 0.1212
+mAP train: 0.1851
+Following was saved in: sweep_small2.h5
+NEUTROPHIL 0.0316
+EOSINOPHIL 0.1874
+LYMPHOCYTE 0.2755
+MONOCYTE 0.0455
+mAP valid: 0.1350
+mAP train: 0.2565
+Following was saved in: sweep_small3.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 0.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.0000
+mAP valid: 0.0000
+mAP train: 0.0000
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.8383
+EOSINOPHIL 0.7378
+LYMPHOCYTE 0.8579
+MONOCYTE 0.5994
+mAP valid: 0.7584
+mAP train: 0.9969

@@ -1,0 +1,14 @@
+Following was saved in: sweep_small1.h5
+NEUTROPHIL0.0000
+EOSINOPHIL0.5000
+LYMPHOCYTE0.5000
+MONOCYTE0.0000
+mAP valid: 0.2500
+mAP train: 0.5000
+Following was saved in: sweep_small1.h5
+NEUTROPHIL 0.0000
+EOSINOPHIL 1.0000
+LYMPHOCYTE 0.0000
+MONOCYTE 0.3333
+mAP valid: 0.3333
+mAP train: 0.4417
